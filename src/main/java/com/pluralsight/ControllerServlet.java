@@ -115,7 +115,6 @@ public class ControllerServlet extends HttpServlet {
 		bookDAO.deleteBook(id);
 		response.sendRedirect("list");
 
-
 	}
 
 	/**
